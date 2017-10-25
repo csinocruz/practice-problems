@@ -7,10 +7,15 @@
 </head>
 <body>
 <div>click me, if you dare</div>
+<div>click me, if you dare</div>
+<div>click me, if you dare</div>
+<div>click me, if you dare</div>
+<div>click me, if you dare</div>
 </body>
 	<script type="text/javascript">
 		$("div").click( someFunction);
 
+        //USING THE TARGET METHOD INSTEAD OF 'THIS'
 		function someFunction(){
 			$(event.target).text('YOU DARED!');
 		}
