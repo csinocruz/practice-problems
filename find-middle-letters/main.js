@@ -1,9 +1,10 @@
-//Build a function, find_middle_letters, that finds the middle of 
+// Build a function, find_middle_letters, that finds the middle of 
 // a string.  If the string is an odd number of characters, it returns 
 // 1 letter.  If it is an even number of characters, it returns 2 
 // characters.  It takes a string as a parameter
 
-let word = 'pineapple'
+// peach - odd
+// almond - even
 
 function find_middle_letters(word) {
     var length = word.length;
@@ -11,7 +12,9 @@ function find_middle_letters(word) {
         var middle_index = Math.floor(length/2);
         console.log(word[middle_index]);
     } else {
-        console.log('The word is even!');
+        var letter1 = (length/2) -1;
+        var letter2 = length/2;
+        console.log(word[letter1], word[letter2]);
     }
 };
 
