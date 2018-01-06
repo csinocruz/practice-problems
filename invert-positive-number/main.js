@@ -1,5 +1,4 @@
 
-
 function invert_negatives(num) {
     var newNum = null;
     if (isNaN(num)) {
