@@ -12,3 +12,6 @@ function random_range(startNum, endNum) {
 }
 
 console.log(random_range(2,15));
+
+// for the most part, function is working but the first param
+// is inclusive in the range while the end number is not
