@@ -14,7 +14,7 @@ function groupArray(array) {
                 booleans.push(array[i]);
                 break;
             default:
-                return 'N/A';
+                return 'Please try agian.';
         }
     }
     return [strings, numbers, booleans];
