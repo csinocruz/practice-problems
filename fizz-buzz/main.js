@@ -14,3 +14,13 @@ function fizzBuzz() {
 }
 
 fizzBuzz();
+
+
+// build a function that takes in no parameters
+// start at 1 until you reach 100
+// if the number is divisible by 3 and 5 then console log 'FizzBuzz'
+// if the number is only divisible by 5 console log 'Buzz'
+// if the number is only divisible by 3 console log 'Fizz'
+function secondFizzBuzz() {
+
+}
